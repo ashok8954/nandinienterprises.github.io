@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nandini Enterprises</title>
+	<link rel="shortcut icon" href="img/logo1.png" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+<style>
+body{
+	margin: 0px;
+	padding: 0px;
+    background: url('img/img3.jpg');
+	text-align: center;
+	background: pink;
+
+}
+.left{
+/*border:2px solid yellow;*/
+display: inline-block;
+position: absolute;
+	left:20px;
+	top:10px;
+}
+.left img{
+	width:70px;
+	height:100px;
+	border:2px solid white;
+	border-radius: 30%;
+	
+
+	
+}
+.mid{
+	border:2px solid green;
+	display:block;
+	width:70%;
+	margin:5px auto;
+	
+	}
+	
+	.top{
+		position: absolute;
+	right:10px;
+	top:20px;
+	display: inline-block;
+	color:black;
+
+	}
+	.right{
+	border:2px solid yellow;
+	position: absolute;
+	right:40px;
+	top:60px;
+	display: inline-block;
+}
+
+.navbar{
+	display:inline-block;
+	
+	
+}
+
+.navbar li{
+	display: inline-block;
+	font-size: 15px;
+}
+
+.navbar li a{
+	color: 0fff;
+    text-decoration: none;
+	padding: 10px 20px ;
+}
+.navbar li a:hover, .navbar li a.active{
+	text-decoration: underline;
+	color:black;
+	font-family: 'Merienda', cursive;
+} 
+
+.btn{
+margin:10px;
+background-color: black;
+color:white;
+border-radius: 20%;
+
+
+}
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+footer{
+	margin:0px;
+	height0:px;
+	border:2px solid yellow;
+	top:100%;
+
+}
+.border{
+	font-size:30px;
+	color:black;
+    text-align:center;
+
+}
+.container{
+border:2px solid white;
+margin: 30px 300px;
+padding:70px 100px;
+width:40%;
+border-radius: 30px;
+background: url('img/data1.jpg');
+
+
+}
+.form-group input{
+	border-radius:30px;
+	border: 1px solid black;
+font-family: 'Merienda', cursive;}
+
+
+</style>
+
+</style>
+<body>
+<header>
+<div class="border">
+<h1> Nandini Enterprises</h1>
+</div>
+	<header class="header">
+	<!--- Left box for logo--->
+	<div class="left">
+	<img src="img/logo.png" alt="Logo" >
+		
+		
+	</div>
+	<!--- Mid box for navbar--->
+
+<div class="mid">
+	<ul class="navbar">
+	<li><a href="#" class="active">Home</a></li>
+	<li><a href="#">About Us</a></li>
+	<li><a href="#">Range of Products</a></li>
+	<li><a href="#">Services</a></li>
+	<li><a href="#">Resources</a></li>
+	<li><a href="#">Life at Nandini</a></li>
+	
+	
+	</ul>
+</div>
+<!-- Right box for buttons--->
+<div class="right">
+ <button class="btn">Call Us Now</button>
+ <button class="btn">Email Us</button>
+</div>
+
+<div class="top">
+				<div> <strong>Email:</strong> nandinienterprises891@gmail.com</div>
+				<div> <strong>Phone:</strong> +91-8881002580</div>
+			</div>
+
+</header>
+<div class="container">	
+
+<h2>Join the India top Company	</h2>
+<form action="noaction.php">
+<div class="form-group">
+
+Name:<input type ="text" name="" placeholder="Enter your Name"><br>
+DOB:<input type ="text" name="" placeholder="Enter your Date of Birth"><br>
+Email:<input type ="text" name="" placeholder="Enter your Email"><br>
+Mobile:<input type ="text" name="" placeholder="Enter your Mobile No"><br>
+Address:<input type ="text" name="" placeholder="Enter your Address"><br>
+<input type="Submit" value="Submit">
+		<input type="Reset" value ="Reset">
+
+</div>
+</form>
+</div>
+</body>
+<footer>
+<p>Footer</p>
+</footer>
+</html>
